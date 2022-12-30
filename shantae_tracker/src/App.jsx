@@ -1,23 +1,8 @@
 import "./App.css";
-
+import { merchItems } from "./db/merchItems";
+import { MerchGrid } from "./components/MerchGrid";
 function App() {
-  return (
-    <div className="App">
-      <header className="App-header">
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
-  );
+  return <MerchGrid merchItems={merchItems}></MerchGrid>;
 }
 
 export default App;
