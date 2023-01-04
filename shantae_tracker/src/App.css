@@ -51,6 +51,8 @@
   background-color: palevioletred;
 }
 
-.merchName {
+.merchName,
+.link,
+.website-name {
   color: rgb(231, 197, 5);
 }
