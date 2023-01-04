@@ -7,7 +7,7 @@ export function Header() {
         <h1 className="website-name">Shantae Merch Tracker</h1>
       </div>
       <div>
-        <Link className="link" to="merchandise">
+        <Link className="link" to="/">
           Merchandise
         </Link>
         <Link className="link" to="checklist">
