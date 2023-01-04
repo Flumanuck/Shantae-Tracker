@@ -12,7 +12,8 @@
 }
 
 .card {
-  border: 3px solid purple;
+  background-color: rgb(172, 15, 172);
+  border: 3px solid gold;
   box-sizing: border-box;
   flex: 1 0 300px;
   margin: 20px 10px;
@@ -48,4 +49,8 @@
 
 .buttonNo {
   background-color: palevioletred;
+}
+
+.merchName {
+  color: rgb(231, 197, 5);
 }
