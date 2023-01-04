@@ -47,8 +47,16 @@
   background-color: lightgreen;
 }
 
+.buttonYes:active {
+  background-color: rgb(106, 175, 106);
+}
+
 .buttonNo {
   background-color: palevioletred;
+}
+
+.buttonNo:active {
+  background-color: rgb(163, 87, 87);
 }
 
 .merchName,

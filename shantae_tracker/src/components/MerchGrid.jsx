@@ -14,8 +14,18 @@ export function MerchGrid(props) {
                 <p className="merchName">{item.name}</p>
               </div>
               <div className="buttons">
-                <button className="buttonYes">✔️</button>
-                <button className="buttonNo">❌</button>
+                <button
+                  onClick={() => props.handleYes(item.id)}
+                  className="buttonYes"
+                >
+                  ✔️
+                </button>
+                <button
+                  onClick={() => props.handleNo(item.id)}
+                  className="buttonNo"
+                >
+                  ❌
+                </button>
               </div>
             </div>
           </div>

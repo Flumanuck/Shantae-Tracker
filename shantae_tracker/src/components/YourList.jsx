@@ -2,7 +2,8 @@ export function YourList(props) {
   return (
     <div className="list-container">
       Yourlist
-      <div></div>
+      <pre>{JSON.stringify(props.ownedItems)}</pre>
+      <pre>{JSON.stringify(props.neededItems)}</pre>
       <div></div>
     </div>
   );
