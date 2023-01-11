@@ -2,6 +2,10 @@
   font-family: Luminari;
   src: url(./font/Luminari-Regular.ttf);
 }
+/* 
+div {
+  border: 2px dashed greenyellow;
+} */
 
 .centered {
   margin: 0 auto;
@@ -14,7 +18,10 @@
   margin-top: 30px;
   display: flex;
   flex-wrap: wrap;
-  width: 100%;
+}
+
+.cardsAll {
+  justify-content: center;
 }
 
 .card {
@@ -23,7 +30,7 @@
   box-sizing: border-box;
   flex: 1 0 300px;
   margin: 20px 10px;
-  max-width: 300px;
+  max-width: 250px;
 }
 .cardContent {
   display: flex;
@@ -105,4 +112,41 @@
 
 .link:visited {
   text-decoration: none;
+}
+
+.list-container {
+  display: flex;
+  justify-content: center;
+  margin-top: 20px;
+}
+
+.one-list {
+  margin: 0 30px;
+  padding-right: 30px;
+  border-right: solid gold;
+}
+
+.products {
+  padding-bottom: 80px;
+}
+
+.navbar {
+  margin: auto;
+}
+.list-header {
+  color: goldenrod;
+  font-family: Luminari;
+  text-decoration: underline;
+}
+
+.products {
+  color: rgba(235, 173, 3, 0.973);
+}
+
+.what-you-have {
+  text-align: center;
+}
+
+.top-link {
+  border-bottom: 2px solid rgb(104, 1, 104);
 }
