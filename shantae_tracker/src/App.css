@@ -1,10 +1,16 @@
+@font-face {
+  font-family: Luminari;
+  src: url(./font/Luminari-Regular.ttf);
+}
+
 .centered {
   margin: 0 auto;
   padding: 0 1em;
   max-width: 1300px;
 }
 
-.cardsAll {
+.cardsAll,
+.navbar {
   margin-top: 30px;
   display: flex;
   flex-wrap: wrap;
@@ -63,4 +69,40 @@
 .link,
 .website-name {
   color: rgb(231, 197, 5);
+}
+
+.website-name {
+  font-family: Luminari;
+  font-size: 3rem;
+  width: 65%;
+}
+
+.links {
+  display: flex;
+  flex-direction: column;
+  width: 300px;
+  font-size: 27px;
+  font-family: Luminari;
+  border: 2px solid rgb(104, 1, 104);
+  background-color: rgb(160, 7, 7);
+}
+
+.link {
+  font-weight: bold;
+}
+
+.navbar {
+  align-items: center;
+  justify-content: space-between;
+  margin: 20px 50px;
+  border: 2px solid gold;
+  background-color: rgb(160, 7, 160);
+}
+
+.link:link {
+  text-decoration: none;
+}
+
+.link:visited {
+  text-decoration: none;
 }

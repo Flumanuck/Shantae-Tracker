@@ -2,12 +2,12 @@ import { Link } from "react-router-dom";
 
 export function Header() {
   return (
-    <nav>
+    <nav className="navbar centered">
       <div>
         <h1 className="website-name">Shantae Merch Tracker</h1>
       </div>
-      <div>
-        <Link className="link" to="/">
+      <div className="links">
+        <Link className="link" to="merchandise">
           Merchandise
         </Link>
         <Link className="link" to="checklist">

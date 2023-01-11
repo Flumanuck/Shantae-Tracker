@@ -1,12 +1,12 @@
 export const merchItems = [
   {
     id: "1",
-    name: "Art of Shantae SDCC Edition",
+    name: "The Art of Shantae SDCC Edition",
     thumbnail: "images/the_art_of_shantae_1.png",
   },
   {
     id: "2",
-    name: "Art of Shantae",
+    name: "The Art of Shantae",
     thumbnail: "images/the_art_of_shantae_2.png",
   },
   {

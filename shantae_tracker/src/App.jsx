@@ -40,7 +40,7 @@ function App() {
         <Header />
         <Routes>
           <Route
-            index
+            path="merchandise"
             element={
               <MerchGrid
                 handleYes={handleYes}
