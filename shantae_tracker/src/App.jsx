@@ -1,14 +1,27 @@
-import { useState } from "react";
-import { BrowserRouter, Routes, Route } from "react-router-dom";
+import { useState, useEffect } from "react";
+import { BrowserRouter, Routes, Route, Navigate } from "react-router-dom";
 import { Header } from "./components/Header";
 import { YourList } from "./components/YourList";
 import "./App.css";
 import { merchItems } from "./db/merchItems";
 import { MerchGrid } from "./components/MerchGrid";
 function App() {
-  const [ownedItems, setOwnedItems] = useState([]);
-  const [neededItems, setNeededItems] = useState([]);
-
+  const [ownedItems, setOwnedItems] = useState(() => {
+    let storedOwnedItems = window.localStorage.getItem("ownedItems");
+    if (!storedOwnedItems) {
+      return [];
+    } else return JSON.parse(storedOwnedItems);
+  });
+  const [neededItems, setNeededItems] = useState(() => {
+    let storedNeededItems = window.localStorage.getItem("neededItems");
+    if (!storedNeededItems) {
+      return [];
+    } else return JSON.parse(storedNeededItems);
+  });
+  useEffect(() => {
+    window.localStorage.setItem("ownedItems", JSON.stringify(ownedItems));
+    window.localStorage.setItem("neededItems", JSON.stringify(neededItems));
+  }, [neededItems, ownedItems]);
   function handleYes(id) {
     if (ownedItems.includes(id)) {
       return;
@@ -55,6 +68,7 @@ function App() {
               <YourList ownedItems={ownedItems} neededItems={neededItems} />
             }
           ></Route>
+          <Route path="*" element={<Navigate to="merchandise"></Navigate>} />
         </Routes>
       </BrowserRouter>
     </div>
