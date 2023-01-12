@@ -39,3 +39,9 @@ Contact me if you want to add more merchandise to the growing list or if I have 
 - Add filtering functionality to filter by game.
 - Add search functionality to search for specific merchandise
 - Add more merchandise to database (ideally exposed via API)
+
+## Screenshot
+
+![Screenshot of Merchandise Page](shantae_tracker/docs/Screenshot-Merch.JPG)
+
+![Screenshot of List Page](shantae_tracker/docs/Screenshot-List.JPG)
