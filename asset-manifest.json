@@ -1,0 +1,14 @@
+{
+  "files": {
+    "main.css": "/static/css/main.a098ef8d.css",
+    "main.js": "/static/js/main.417b2892.js",
+    "static/media/Luminari-Regular.ttf": "/static/media/Luminari-Regular.bf4601ff4e7dd8fe5ea7.ttf",
+    "index.html": "/index.html",
+    "main.a098ef8d.css.map": "/static/css/main.a098ef8d.css.map",
+    "main.417b2892.js.map": "/static/js/main.417b2892.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.a098ef8d.css",
+    "static/js/main.417b2892.js"
+  ]
+}
