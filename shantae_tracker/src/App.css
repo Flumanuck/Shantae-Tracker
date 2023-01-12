@@ -79,7 +79,7 @@ div {
 }
 
 .website-name {
-  font-family: Luminari;
+  font-family: Luminari, serif;
   font-size: 3rem;
   width: 65%;
 }
@@ -135,7 +135,7 @@ div {
 }
 .list-header {
   color: goldenrod;
-  font-family: Luminari;
+  font-family: Luminari, serif;
   text-decoration: underline;
 }
 
@@ -149,4 +149,22 @@ div {
 
 .top-link {
   border-bottom: 2px solid rgb(104, 1, 104);
+}
+
+.remove {
+  border-radius: 50%;
+  color: blueviolet;
+  background-color: blueviolet;
+}
+
+.remove:active {
+  background-color: rgb(68, 40, 94);
+}
+
+.remove-container {
+  margin-top: 20px;
+  margin-left: 20px;
+  width: 100%;
+  display: flex;
+  justify-content: center;
 }
