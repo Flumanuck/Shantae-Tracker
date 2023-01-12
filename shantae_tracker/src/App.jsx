@@ -5,6 +5,7 @@ import { YourList } from "./components/YourList";
 import "./App.css";
 import { merchItems } from "./db/merchItems";
 import { MerchGrid } from "./components/MerchGrid";
+
 function App() {
   const [ownedItems, setOwnedItems] = useState(() => {
     let storedOwnedItems = window.localStorage.getItem("ownedItems");
@@ -47,6 +48,23 @@ function App() {
     setNeededItems([...neededItems, id]);
   }
 
+  function handleRemove(id, itemType) {
+    if (itemType === "owned") {
+      let updatedOwnedItems = ownedItems.filter(
+        (ownedItemId) => ownedItemId !== id
+      );
+      setOwnedItems(updatedOwnedItems);
+    } else {
+      let updatedNeededItems = neededItems.filter(
+        (neededItemId) => neededItemId !== id
+      );
+      setNeededItems(updatedNeededItems);
+    }
+  }
+  function handleRemoveAll() {
+    setOwnedItems([]);
+    setNeededItems([]);
+  }
   return (
     <div>
       <BrowserRouter>
@@ -65,7 +83,12 @@ function App() {
           <Route
             path="checklist"
             element={
-              <YourList ownedItems={ownedItems} neededItems={neededItems} />
+              <YourList
+                ownedItems={ownedItems}
+                neededItems={neededItems}
+                handleRemove={handleRemove}
+                handleRemoveAll={handleRemoveAll}
+              />
             }
           ></Route>
           <Route path="*" element={<Navigate to="merchandise"></Navigate>} />

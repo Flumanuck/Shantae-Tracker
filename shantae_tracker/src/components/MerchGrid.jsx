@@ -3,7 +3,7 @@ export function MerchGrid(props) {
     <div className="centered">
       <div className="cardsAll">
         {props.merchItems.map((item) => (
-          <div className="card">
+          <div key={item.id} className="card">
             <div className="cardContent">
               <img
                 className="thumbnail"

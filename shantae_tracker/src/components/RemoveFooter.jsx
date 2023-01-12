@@ -1,3 +1,7 @@
-export function RemoveFooter() {
-  return <button className="remove-all">Remove All</button>;
+export function RemoveFooter(props) {
+  return (
+    <button onClick={() => props.handleRemoveAll()} className="remove-all">
+      Remove All
+    </button>
+  );
 }

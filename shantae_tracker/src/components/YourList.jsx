@@ -24,7 +24,12 @@ export function YourList(props) {
                 return (
                   <li key={ownedItem.id}>
                     {ownedItem.name}&nbsp;&nbsp;&nbsp;
-                    <button className="remove">❌</button>
+                    <button
+                      onClick={() => props.handleRemove(ownedItem.id, "owned")}
+                      className="remove"
+                    >
+                      ❌
+                    </button>
                   </li>
                 );
               })}
@@ -39,7 +44,14 @@ export function YourList(props) {
                 return (
                   <li key={neededItem.id}>
                     {neededItem.name}&nbsp;&nbsp;&nbsp;
-                    <button className="remove">❌</button>
+                    <button
+                      onClick={() =>
+                        props.handleRemove(neededItem.id, "needed")
+                      }
+                      className="remove"
+                    >
+                      ❌
+                    </button>
                   </li>
                 );
               })}
@@ -48,7 +60,7 @@ export function YourList(props) {
         </div>
       </div>
       <div className="remove-container">
-        <RemoveFooter />
+        <RemoveFooter handleRemoveAll={props.handleRemoveAll} />
       </div>
     </div>
   );
