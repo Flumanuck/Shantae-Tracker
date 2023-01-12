@@ -42,6 +42,6 @@ Contact me if you want to add more merchandise to the growing list or if I have 
 
 ## Screenshot
 
-![Screenshot of Merchandise Page](shantae_tracker/docs/Screenshot-Merch.JPG)
+![Screenshot of Merchandise Page](docs/Screenshot-Merch.JPG)
 
-![Screenshot of List Page](shantae_tracker/docs/Screenshot-List.JPG)
+![Screenshot of List Page](docs/Screenshot-List.JPG)
