@@ -1,14 +1,14 @@
 {
   "files": {
-    "main.css": "/Shantae-Tracker/merchandise/static/css/main.c6d4805e.css",
-    "main.js": "/Shantae-Tracker/merchandise/static/js/main.417b2892.js",
-    "static/media/Luminari-Regular.ttf": "/Shantae-Tracker/merchandise/static/media/Luminari-Regular.bf4601ff4e7dd8fe5ea7.ttf",
-    "index.html": "/Shantae-Tracker/merchandise/index.html",
-    "main.c6d4805e.css.map": "/Shantae-Tracker/merchandise/static/css/main.c6d4805e.css.map",
-    "main.417b2892.js.map": "/Shantae-Tracker/merchandise/static/js/main.417b2892.js.map"
+    "main.css": "/Shantae-Tracker/static/css/main.94051287.css",
+    "main.js": "/Shantae-Tracker/static/js/main.417b2892.js",
+    "static/media/Luminari-Regular.ttf": "/Shantae-Tracker/static/media/Luminari-Regular.bf4601ff4e7dd8fe5ea7.ttf",
+    "index.html": "/Shantae-Tracker/index.html",
+    "main.94051287.css.map": "/Shantae-Tracker/static/css/main.94051287.css.map",
+    "main.417b2892.js.map": "/Shantae-Tracker/static/js/main.417b2892.js.map"
   },
   "entrypoints": [
-    "static/css/main.c6d4805e.css",
+    "static/css/main.94051287.css",
     "static/js/main.417b2892.js"
   ]
 }
