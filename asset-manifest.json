@@ -1,14 +1,14 @@
 {
   "files": {
     "main.css": "/Shantae-Tracker/static/css/main.dfda991d.css",
-    "main.js": "/Shantae-Tracker/static/js/main.6b90d5d0.js",
+    "main.js": "/Shantae-Tracker/static/js/main.bb8b07ac.js",
     "static/media/Luminari-Regular.ttf": "/Shantae-Tracker/static/media/Luminari-Regular.bf4601ff4e7dd8fe5ea7.ttf",
     "index.html": "/Shantae-Tracker/index.html",
     "main.dfda991d.css.map": "/Shantae-Tracker/static/css/main.dfda991d.css.map",
-    "main.6b90d5d0.js.map": "/Shantae-Tracker/static/js/main.6b90d5d0.js.map"
+    "main.bb8b07ac.js.map": "/Shantae-Tracker/static/js/main.bb8b07ac.js.map"
   },
   "entrypoints": [
     "static/css/main.dfda991d.css",
-    "static/js/main.6b90d5d0.js"
+    "static/js/main.bb8b07ac.js"
   ]
 }
