@@ -1,30 +1,14 @@
 {
   "files": {
     "main.css": "/Shantae-Tracker/static/css/main.dfda991d.css",
-    "main.js": "/Shantae-Tracker/static/js/main.617ef225.js",
-    "static/media/risky_s-revenge_vinyl.png": "/Shantae-Tracker/static/media/risky_s-revenge_vinyl.331f918111613bd661be.png",
-    "static/media/product_shantae_vinyl_2022_front.png": "/Shantae-Tracker/static/media/product_shantae_vinyl_2022_front.05fbf13ae7903574d317.png",
-    "static/media/rottytops_plush.png": "/Shantae-Tracker/static/media/rottytops_plush.62e2706fbbaddb93300f.png",
-    "static/media/tropical_blacklight.png": "/Shantae-Tracker/static/media/tropical_blacklight.5928fd502c806f5eb444.png",
-    "static/media/the_art_of_shantae_1.png": "/Shantae-Tracker/static/media/the_art_of_shantae_1.b77a88eb3e4fc3b119a6.png",
-    "static/media/classic_shantae_pog.png": "/Shantae-Tracker/static/media/classic_shantae_pog.f0436f9d7c9b4b07e721.png",
-    "static/media/tropical_shirt.png": "/Shantae-Tracker/static/media/tropical_shirt.4988a661dee17ba511ad.png",
+    "main.js": "/Shantae-Tracker/static/js/main.6b90d5d0.js",
     "static/media/Luminari-Regular.ttf": "/Shantae-Tracker/static/media/Luminari-Regular.bf4601ff4e7dd8fe5ea7.ttf",
-    "static/media/charagumin_sky.png": "/Shantae-Tracker/static/media/charagumin_sky.aaaf80bf7b5387a04a62.png",
-    "static/media/shantae_plush.png": "/Shantae-Tracker/static/media/shantae_plush.e39687a7e2e974e9e79c.png",
-    "static/media/charagumin_rottytops.png": "/Shantae-Tracker/static/media/charagumin_rottytops.4747ad6460ffbfb12382.png",
-    "static/media/the_art_of_shantae_2.png": "/Shantae-Tracker/static/media/the_art_of_shantae_2.eef44c926de7a35615f2.png",
-    "static/media/shantae_gbc_real.png": "/Shantae-Tracker/static/media/shantae_gbc_real.cc0fd2c915912ada9a36.png",
-    "static/media/shantae_gbc_lrg.png": "/Shantae-Tracker/static/media/shantae_gbc_lrg.6e4076e1afccacd9bed1.png",
-    "static/media/charagumin_shantae.png": "/Shantae-Tracker/static/media/charagumin_shantae.2479dc07336ae1485ab8.png",
-    "static/media/nendoroid_shantae.png": "/Shantae-Tracker/static/media/nendoroid_shantae.aa1a56dd89dec1b02d05.png",
-    "static/media/charagumin_riskyboots.png": "/Shantae-Tracker/static/media/charagumin_riskyboots.fcdc48cc6ceb486a79c1.png",
     "index.html": "/Shantae-Tracker/index.html",
     "main.dfda991d.css.map": "/Shantae-Tracker/static/css/main.dfda991d.css.map",
-    "main.617ef225.js.map": "/Shantae-Tracker/static/js/main.617ef225.js.map"
+    "main.6b90d5d0.js.map": "/Shantae-Tracker/static/js/main.6b90d5d0.js.map"
   },
   "entrypoints": [
     "static/css/main.dfda991d.css",
-    "static/js/main.617ef225.js"
+    "static/js/main.6b90d5d0.js"
   ]
 }
