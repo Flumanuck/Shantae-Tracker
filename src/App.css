@@ -2,8 +2,8 @@
   font-family: Luminari;
   src: url(./font/Luminari-Regular.ttf);
 }
-/* 
-div {
+
+/* div {
   border: 2px dashed greenyellow;
 } */
 
@@ -120,12 +120,6 @@ div {
   margin-top: 20px;
 }
 
-.one-list {
-  margin: 0 30px;
-  padding-right: 30px;
-  border-right: solid gold;
-}
-
 .products {
   padding-bottom: 80px;
 }
@@ -163,8 +157,18 @@ div {
 
 .remove-container {
   margin-top: 20px;
-  margin-left: 20px;
+  margin-right: 10px;
   width: 100%;
   display: flex;
   justify-content: center;
+}
+.line {
+  margin: 0 30px;
+  height: 50vh;
+  width: 1px;
+  background-color: gold;
+}
+
+.one-list {
+  width: 214.225px;
 }

@@ -16,7 +16,7 @@ export function YourList(props) {
         className="list-container
     centered"
       >
-        <div className="one-list border">
+        <div className="one-list">
           <h2 className="list-header what-you-have"> What you have</h2>
           <div className="list">
             <ul className="products">
@@ -36,7 +36,8 @@ export function YourList(props) {
             </ul>
           </div>
         </div>
-        <div className="">
+        <div className="line"></div>
+        <div className="one-list">
           <h2 className="list-header what-you-need"> What you still need </h2>
           <div className="list">
             <ul className="products">

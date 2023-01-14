@@ -10,7 +10,7 @@
 
 ## Description
 
-This is a website that allows the user to track what Shantae merchadise items they have and do not have by compiling them in a list. (Note that this is only a proof of concept and merchandise will be added to it periodically)
+This is a website that allows the user to track what official Shantae merchandise they have and do not have by compiling them in a list. (Note that this is only a proof of concept and merchandise will be added to it periodically)
 Your information will be logged and stored on your local computer.
 
 ## Installation
