@@ -1,3 +1,7 @@
+function getThumbnail(url) {
+  return `/Shantae-Tracker/${url}`;
+}
+
 export function MerchGrid(props) {
   return (
     <div className="centered">
@@ -7,7 +11,7 @@ export function MerchGrid(props) {
             <div className="cardContent">
               <img
                 className="thumbnail"
-                src={item.thumbnail}
+                src={getThumbnail(item.thumbnail)}
                 alt={`${item.name}`}
               />
               <div>

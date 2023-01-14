@@ -67,7 +67,7 @@ function App() {
   }
   return (
     <div>
-      <BrowserRouter>
+      <BrowserRouter basename="/Shantae-Tracker">
         <Header />
         <Routes>
           <Route
