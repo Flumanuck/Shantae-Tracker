@@ -7,6 +7,9 @@
 - [Usage](#usage)
 - [Contributing](#contributing)
 - [Technologies Used](#technologies-used)
+- [To-Do](#to-do)
+- [Screenshots](#screenshots)
+- [Link](#link)
 
 ## Description
 
@@ -40,8 +43,12 @@ Contact me if you want to add more merchandise to the growing list or if I have 
 - Add search functionality to search for specific merchandise
 - Add more merchandise to database (ideally exposed via API)
 
-## Screenshot
+## Screenshots
 
 ![Screenshot of Merchandise Page](docs/Screenshot-Merch.JPG)
 
 ![Screenshot of List Page](docs/Screenshot-List.JPG)
+
+## Link
+
+[Shantae Merchandise Tracker](https://flumanuck.github.io/Shantae-Tracker)
