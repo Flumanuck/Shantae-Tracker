@@ -181,3 +181,8 @@
 .merchName {
   text-align: center;
 }
+
+.lampContainer {
+  margin-top: 10px;
+  height: 33px;
+}
