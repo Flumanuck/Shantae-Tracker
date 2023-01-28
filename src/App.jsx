@@ -7,6 +7,8 @@ import { merchItems } from "./db/merchItems";
 import { MerchGrid } from "./components/MerchGrid";
 
 function App() {
+  const [itemData, setItemData] = useState(merchItems);
+
   const [ownedItems, setOwnedItems] = useState(() => {
     let storedOwnedItems = window.localStorage.getItem("ownedItems");
     if (!storedOwnedItems) {
@@ -33,8 +35,13 @@ function App() {
       );
       setNeededItems(updatedNeededItems);
     }
+    const updatedItemData = [...itemData];
+    const itemToUpdate = updatedItemData.find((data) => data.id === id);
+    itemToUpdate.haveState = "owned";
+    setItemData(updatedItemData);
     setOwnedItems([...ownedItems, id]);
   }
+
   function handleNo(id) {
     if (neededItems.includes(id)) {
       return;
@@ -45,6 +52,10 @@ function App() {
       );
       setOwnedItems(updatedOwnedItems);
     }
+    const updatedItemData = [...itemData];
+    const itemToUpdate = updatedItemData.find((data) => data.id === id);
+    itemToUpdate.haveState = "need";
+    setItemData(updatedItemData);
     setNeededItems([...neededItems, id]);
   }
 
@@ -65,6 +76,7 @@ function App() {
     setOwnedItems([]);
     setNeededItems([]);
   }
+  console.log(itemData);
   return (
     <div>
       <BrowserRouter basename="/Shantae-Tracker">

@@ -14,7 +14,7 @@ export function MerchGrid(props) {
                 src={getThumbnail(item.thumbnail)}
                 alt={`${item.name}`}
               />
-              <div>
+              <div className="merchDescription">
                 <p className="merchName">{item.name}</p>
               </div>
               <div className="buttons">

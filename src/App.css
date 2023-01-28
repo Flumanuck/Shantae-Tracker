@@ -172,3 +172,12 @@
 .one-list {
   width: 214.225px;
 }
+
+.merchDescription {
+  width: 200px;
+  height: 100px;
+}
+
+.merchName {
+  text-align: center;
+}
